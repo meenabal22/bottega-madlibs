@@ -6,8 +6,7 @@ class Home extends Component {
   render() {
     return (
       <div className="home">
-        { Header('Bottega Madlibs') }
-        { Header('User Profile Settings') }
+        { Header() }
       </div>
     );
   }
